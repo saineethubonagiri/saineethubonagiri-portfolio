@@ -4,8 +4,8 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Saineethu Bonagiri</h1>
-        <p>Software Engineer | Backend & AI/ML Focused</p>
+        <h1>Sai Neethu Bonagiri</h1>
+        <p>Software Engineer | Backend Focused</p>
       </header>
 
       <section>
