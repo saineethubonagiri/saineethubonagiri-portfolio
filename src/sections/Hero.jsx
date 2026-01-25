@@ -1,6 +1,8 @@
 import React from "react";
 import "./Hero.css";
 import profilePic from "../assets/profile-pic.png"; // replace with your picture
+import githubIcon from "../assets/github.png"; // replace with your GitHub icon
+import linkedinIcon from "../assets/linkedin.png"; // replace with your LinkedIn icon
 
 const Hero = () => {
   return (
@@ -16,12 +18,12 @@ const Hero = () => {
           </div>
           <div className="hero-socials">
             <img
-              src="src/assets/github.png"
+              src={githubIcon}
               alt="GitHub"
               onClick={() => window.open("https://github.com/saineethubonagiri")}
             />
             <img
-              src="src/assets/linkedin.png"
+              src={linkedinIcon}
               alt="LinkedIn"
               onClick={() => window.open("https://linkedin.com/in/username")}
             />
